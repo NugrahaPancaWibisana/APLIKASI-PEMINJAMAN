@@ -10,7 +10,7 @@
                 <livewire:profile />
             </header>
 
-            <div class="w-full mt-6 overflow-hidden bg-white rounded-lg shadow-md">
+            <div class="w-full overflow-hidden bg-white rounded-lg shadow-md">
                 <div class="p-6">
                     <h3 class="mb-4 text-lg font-semibold text-gray-800">Daftar Peminjaman Telah Dikembalikan</h3>
                     <div class="overflow-x-auto">

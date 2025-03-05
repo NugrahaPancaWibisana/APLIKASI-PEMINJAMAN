@@ -39,4 +39,7 @@
             </button>
         </form>
     </section>
+    <div class="absolute bottom-0 left-0 right-0 flex items-center justify-center w-full p-6 font-serif">
+        <h3>© {{ \Carbon\Carbon::now()->format('Y') }} Nugraha Panca Wibisana. All Rights Reserved.</h3>
+    </div>
 </main>
