@@ -196,7 +196,7 @@ class Peminjaman extends Component
 
             $this->currentStep = 4;
             $this->status = 'success';
-            $this->message = 'Barang berhasil dikembalikan';
+            $this->message = 'Barang berhasil dipinjam';
             $this->dispatch('peminjaman-saved');
             $this->resetForm();
         } catch (\Exception $e) {

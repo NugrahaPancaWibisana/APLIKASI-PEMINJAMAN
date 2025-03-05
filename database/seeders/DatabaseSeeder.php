@@ -16,10 +16,10 @@ class DatabaseSeeder extends Seeder
      */
     public function run(): void
     {
-        User::factory(10)->create();
+        // User::factory(10)->create();
 
         User::factory()->create([
-            'username' => 'wibisana',
+            'username' => 'admin',
             'password' => Hash::make('password'),
             'role' => 'admin',
         ]);
@@ -30,13 +30,13 @@ class DatabaseSeeder extends Seeder
             'role' => 'operator',
         ]);
 
-        Barang::factory(100)->create();
+        // Barang::factory(100)->create();
 
-        Person::factory()->create([
-            'name' => 'AHMAD HAKIM MAKARIM',
-            'rfid' => '0453248145',
-            'nip' => '1234567890',
-            'no_wa' => '081234567890',
-        ]);
+        // Person::factory()->create([
+        //     'name' => 'AHMAD HAKIM MAKARIM',
+        //     'rfid' => '0453248145',
+        //     'nip' => '1234567890',
+        //     'no_wa' => '081234567890',
+        // ]);
     }
 }
