@@ -2,7 +2,7 @@
 
 # APLIKASI-PEMINJAMAN
 
-# Cara Menjalankan Proyek Laravel
+## Cara Menjalankan Proyek Laravel
 
 1. Clone repositori:
    ```sh
@@ -16,7 +16,7 @@
 
 3. Download package
    ```sh
-   composer i
+   composer i && npm install
    ```
 
 4. copy environment
