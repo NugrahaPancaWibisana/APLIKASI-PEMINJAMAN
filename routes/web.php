@@ -13,7 +13,6 @@ use App\Livewire\Operator\Peminjaman as PeminjamanOperator;
 
 Route::get('/', Login::class)->name('login')->middleware('guest');
 
-
 Route::middleware(['auth', 'role:admin'])->prefix('admin')->group(function () {
     Route::get('/dashboard', AdminDashboard::class)->name('admin.dashboard');
     Route::get('/barang', Barang::class)->name('admin.barang');
